@@ -1,4 +1,4 @@
-# React Native Performance: Unnecessary Re-renders & Optimizing FlatList
+# React Native Interview Question 3: React Native Performance: Unnecessary Re-renders & Optimizing FlatList
 
 > youtube video : https://www.youtube.com/watch?v=AZ9i3eoyrnE 
 
