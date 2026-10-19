@@ -18,3 +18,27 @@ For a FlatList with 1,000 items, I rely on virtualization, memoize row component
 | console.count()	 | Quickly count how often a component renders during development|
 | React <Profiler> |	Programmatically measure commits and rendering duration|
 | Flipper / performance tools	 | Inspect native and JS performance where supported by the project setup |
+
+
+
+## 10 Points to Optimize a React Native App
+
+1\. Optimize re-renders — Use `React.memo`, `useCallback`, and `useMemo` where profiling shows unnecessary work.
+
+2\. Optimize FlatList — Use virtualization, stable keys, memoized row components, `getItemLayout`, and tuned batch settings.
+
+3\. Optimize images — Resize images, use caching, prefer appropriate formats, and avoid loading full-resolution assets unnecessarily.
+
+4\. Reduce bundle size — Remove unused dependencies, assets, and code; enable minification and use production builds.
+
+5\. Improve API performance — Avoid duplicate requests, implement caching with TanStack Query or RTK Query, and cancel obsolete requests where appropriate.
+
+6\. Optimize JavaScript execution — Avoid expensive calculations during rendering, debounce search inputs, and move suitable heavy work off the JS thread.
+
+7\. Improve startup time — Defer non-critical initialization, lazy-load where supported, and avoid unnecessary work during app launch.
+
+8\. Optimize animations — Use React Native's native animation capabilities or Reanimated's UI-thread worklets for suitable animations.
+
+9\. Reduce memory usage — Clean up subscriptions, timers, event listeners, and sockets; avoid retaining large objects unnecessarily.
+
+10\. Profile real devices — Use React Native DevTools, Android Studio Profiler, Xcode Instruments, and crash/performance monitoring tools. Validate changes in release builds.
