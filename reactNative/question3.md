@@ -11,7 +11,8 @@ For a FlatList with 1,000 items, I rely on virtualization, memoize row component
 
 # Step 1 :  Use the right debugging tools
 
-| Tool	| What I use it for
+| Tool	| What I use it for |
+|---|---|
 | React DevTools Profiler | 	Identify components that render frequently and measure render duration |
 |React Native DevTools |	Inspect React components, performance traces, and JavaScript execution |
 | console.count()	 | Quickly count how often a component renders during development|
