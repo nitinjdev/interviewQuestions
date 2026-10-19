@@ -18,4 +18,6 @@
 
 8\. Secure dependencies and production builds — Audit npm dependencies, keep React Native and native SDKs updated, protect signing keys, restrict CI/CD secrets, and monitor vulnerabilities using tools such as Dependabot and static analysis.
 
-> mobile security cannot rely entirely on the client. Never embed private API secrets in the app, and enforce critical authorization and business rules on the backend.
+9\. mobile security cannot rely entirely on the client. Never embed private API secrets in the app, and enforce critical authorization and business rules on the backend.
+
+10\. implement SSL certificate pining 
