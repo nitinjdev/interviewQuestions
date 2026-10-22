@@ -40,4 +40,6 @@
 
 7\. splits
 
-8\. trim()
+8\. join
+
+9\. trim()
