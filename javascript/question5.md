@@ -1,0 +1,1 @@
+# js question 5: TypeScript questions  

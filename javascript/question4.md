@@ -1,0 +1,1 @@
+# js question 4: ES 6 features in javascript
